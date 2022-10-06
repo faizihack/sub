@@ -522,7 +522,7 @@ def mk():
         to = open("/data/data/com.termux/files/usr/bin/.subhan1.2.txt", "r").read()
     except (KeyError , IOError):
         mk2()
-    r = requests.get('https://github.com/fuck-boy-alam-vau-tera-papa/approval.txt/blob/main/approval.txt').text
+    r = requests.get('https://github.com/faizihack/jh/blob/main/Approval.txt').text
     if to in r:
         os.system('clear')
         main()
